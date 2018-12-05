@@ -7,6 +7,7 @@ from ast import literal_eval
 import os
 import sys
 import recommonmark
+import email.message  # required for typing.TypeVar to work in py3
 
 
 # -- Custom variables -----------------------------------------------------
